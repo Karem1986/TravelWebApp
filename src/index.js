@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 // import "./index.css";
 import "./styles/tailwind.css";
 import Navbar from "./components/Navbar";
+import Section from "./components/Section";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -14,6 +15,7 @@ ReactDOM.render(
      */}{" "}
     <switch>
     <Route exact path="/" component={Navbar} />
+    <Section/>
 
     </switch>
 

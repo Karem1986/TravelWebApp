@@ -13,12 +13,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-    "scripts": {
+  "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
