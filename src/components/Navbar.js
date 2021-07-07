@@ -19,7 +19,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold"
             >
               Destinations
             </a>
@@ -28,7 +28,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/about/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Hotels
             </a>
@@ -37,7 +37,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/blog/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Flights
             </a>
@@ -45,7 +45,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/blog/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Bookings
             </a>
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/blog/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Login
             </a>
@@ -61,7 +61,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/blog/"
-              className="block md:inline-block px-12  py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10  py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Sign Up
             </a>
@@ -69,7 +69,7 @@ export default class Navbar extends Component {
           <li className="border-t md:border-none">
             <a
               href="/blog/"
-              className="block md:inline-block px-12 py-3 no-underline text-grey-darkest hover:text-grey-darker"
+              className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               EN
             </a>
