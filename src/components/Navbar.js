@@ -74,7 +74,9 @@ export default class Navbar extends Component {
               className="block md:inline-block px-10 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               EN
+              
             </a>
+            
           </li>
         </ul>
       </nav>
