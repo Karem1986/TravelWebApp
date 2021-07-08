@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class plane1 extends Component {
   render() {
     return (
-      <div>
+      <div className="float-right mx-72 -my-96">
         <svg
           width="169"
           height="155"

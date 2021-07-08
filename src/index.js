@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import "./styles/tailwind.css";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
-import Traveller from "./components/traveller.js";
+import Category from "./components/Category";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -17,7 +17,7 @@ ReactDOM.render(
     <switch>
       <Route exact path="/" component={Navbar} />
       <Section />
-      <Traveller />
+      <Category />
     </switch>
   </BrowserRouter>,
   document.getElementById("root")

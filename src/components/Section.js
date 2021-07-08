@@ -1,5 +1,9 @@
+import { className } from "postcss-selector-parser";
 import React, { Component } from "react";
-import Play from "./svg/play.svg"; 
+import Traveller from "../images/traveller.png";
+import Plane1 from "./svg/plane1";
+import Plane2 from "./svg/plane2";
+
 export default class Section extends Component {
   render() {
     return (
@@ -15,6 +19,7 @@ export default class Section extends Component {
           to sportsmen it engrossed listening. Park gate sell they west hard for
           the.
         </p>
+        
         <p className="flex-1 flex flex-row items-center">
         <button className=" mt-8 bg-yellow-500 hover:bg-yellow-300 text-white font-bold py-4 px-20 rounded">
   Find out more
@@ -27,7 +32,8 @@ export default class Section extends Component {
  </button>
  </p>
 
-      </div>
+      </div> 
+
     );
   }
 }
