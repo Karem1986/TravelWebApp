@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./styles/tailwind.css";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
+import Traveller from "./components/traveller.js";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -14,13 +15,10 @@ ReactDOM.render(
     {/*    </React.StrictMode>
      */}{" "}
     <switch>
-    <Route exact path="/" component={Navbar} />
-    <Section/>
-
+      <Route exact path="/" component={Navbar} />
+      <Section />
+      <Traveller />
     </switch>
-
-
-
   </BrowserRouter>,
   document.getElementById("root")
 );
