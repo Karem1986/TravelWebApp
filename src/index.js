@@ -5,6 +5,8 @@ import "./styles/tailwind.css";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Category from "./components/Category";
+import Destinations from "./components/Destinations";
+import Steps from "./components/Steps";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -18,6 +20,8 @@ ReactDOM.render(
       <Route exact path="/" component={Navbar} />
       <Section />
       <Category />
+      <Destinations/>
+      <Steps/>
     </switch>
   </BrowserRouter>,
   document.getElementById("root")
