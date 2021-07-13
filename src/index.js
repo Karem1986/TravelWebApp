@@ -7,6 +7,9 @@ import Section from "./components/Section";
 import Category from "./components/Category";
 import Destinations from "./components/Destinations";
 import Steps from "./components/Steps";
+import Testimonials from "./components/Testimonials";
+import Company from "./components/company";
+import Subscribe from "./components/subscribe";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -22,6 +25,9 @@ ReactDOM.render(
       <Category />
       <Destinations/>
       <Steps/>
+      <Testimonials/>
+      <Company/>
+      <Subscribe/>
     </switch>
   </BrowserRouter>,
   document.getElementById("root")
