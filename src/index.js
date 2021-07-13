@@ -10,6 +10,7 @@ import Steps from "./components/Steps";
 import Testimonials from "./components/Testimonials";
 import Company from "./components/company";
 import Subscribe from "./components/subscribe";
+import Footer from "./components/footer";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Testimonials/>
       <Company/>
       <Subscribe/>
+      <Footer/>
     </switch>
   </BrowserRouter>,
   document.getElementById("root")
