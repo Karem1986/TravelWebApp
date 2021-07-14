@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Facebook from "./svg/facebook";
-import Instagran from "./svg/instagram";
 import Twitter from "./svg/twitter";
 import Play from "./svg/play"; 
 import Apple from "./svg/Apple";

@@ -1,8 +1,5 @@
-import { className } from "postcss-selector-parser";
 import React, { Component } from "react";
-import Traveller from "../images/traveller.png";
-import Plane1 from "./svg/plane1";
-import Plane2 from "./svg/plane2";
+
 
 export default class Section extends Component {
   render() {

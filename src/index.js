@@ -12,7 +12,7 @@ import Company from "./components/company";
 import Subscribe from "./components/subscribe";
 import Footer from "./components/footer";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route,  } from "react-router-dom";
 
 ReactDOM.render(
   <BrowserRouter>
